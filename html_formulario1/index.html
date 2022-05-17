@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="https://kit.fontawesome.com/8b8fcf2395.js" crossorigin="anonymous"></script>
+        <title>marvel</title>
+    </head>
+    <body>
+        <header>
+            <div class="contain_1">
+                <p>20% de Descuento en todos los productos!</p>
+            </div>
+            <div class="contain_2">
+                <img src="img/logo 1.svg" alt="">
+                <h1>Tienda Online</h1>
+            </div>
+            <div class="contain_3">
+                <ul>
+                    <li>Contacto</li>
+                    <li>Registrarme</li>
+                    <li>Ingresar</li>
+                </ul>
+            </div>
+        </header>
+        <main>
+            <div class="formularioAñadir">
+                <h2>Añadi tu super!</h2>
+                <p>Agrega tu personaje favorito completando las opciones.</p>
+                <form action="">
+                    <div class="datos">
+                        <label for="Nombre">*Nombre</label><br>
+                        <input class="style" type="text" name="Nombre" id="Nombre">
+                        <label for="Especie">*Especie</label><br>
+                        <input class="style" type="number" name="Especie" id="Especie"><br>
+                    </div>
+                    <div class="datos">
+                        <label for="Fecha">Fecha</label><br>
+                        <input class="style" type="date" name="Fecha" id="Fecha">
+                        <label for="Imagen">Agregar Foto</label><br>
+                        <input type="file" name="Imgen" id="Imagen">
+                    </div>
+                    <div>
+                        
+                        <textarea placeholder="Descripcion" name="Descipcion" id="Descipcion" cols="30" rows="10"></textarea>
+                        
+                        <article>
+                            <p>Poderes</p>
+                            <input name="Volar" type="checkbox" id="Volar">
+                            <label for="Volar">Volar</label><br>
+                            <input type="checkbox" name="Superinteligencia" id="Superinteligencia">
+                            <label for="Superinteligencia">Superinteligencia</label><br>
+                            <input type="checkbox" name="Rayo_laser" id="Rayo_laser">
+                            <label for="Rayo_laser">Vista de rayo láser</label><br>
+                            <input type="checkbox" name="Billetera" id="Billetera">
+                            <label for="Billetera">Billetera gorda</label><br>
+                            <hr>
+                            <p>Tipo de Personajes</p>
+                            <input type="checkbox" name="Heroe" id="Heroe">
+                            <label for="Heroe">Heroe / Heroina</label><br>
+                            <input type="checkbox" name="Villano" id="Villano">
+                            <label for="Villano">Villano / Vilana</label>
+                        </article>
+                    </div>
+                    <button type="button">Añadir</button>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <p>Todos los derechos reservados a <span>FRONT END 1</span></p>
+            </div>
+        </footer>
+    </body>
+    </html>
